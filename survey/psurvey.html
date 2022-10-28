@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveystyle.css">
+    <title>form survey</title>
+</head>
+<body>
+    <h1>programming survey</h1>
+    <form id="lform">
+        <div class="allform">
+            <label for="name" id="gname">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="allform">
+            <label for="email" id="gmail">Gmail</label>
+            <input type="text" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="allform">
+            <label for="age" id="gage">Age</label>
+            <input type="text" id="age" placeholder="Enter Your Age">
+        </div>
+        <div class="allform">
+            <label for="role" id="grole">Which role best describes you?</label>
+            <select name="role" id="role">
+                <option value="beginner">Beginner</option>
+                <option value="intermidiate">Intermidiate</option>
+                <option value="intern">Intern</option>
+                <option value="proffesional">Proffesional</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        <div class="allform">
+            <label for="recommende" id="grecommende"> Would you recommend us to a friend?</label>
+            <input type="radio" id="recommend1" name="recommende">Yes</input>
+            <input type="radio" id="recommend2" name="recommende">No</input>
+            <input type="radio" id="recommend3" name="recommende">Maybe</input>
+        </div>
+        <div class="allform">
+            <label for="frame" id="gframe">Languages and Framework known</label> <br>
+            <small>select all that apply</small>
+            <input type="checkbox" name="input1">C
+            <input type="checkbox" name="input2">C++
+            <input type="checkbox" name="input3">c#
+            <input type="checkbox" name="input4">Python
+            <input type="checkbox" name="input5">React
+            <input type="checkbox" name="input6">Java
+            <input type="checkbox" name="input7">nodeJs
+        </div>
+        <div class="allform">
+            <label for="comment" id="gcomment">Any comment or suggestion</label>
+            <textarea name="comment" id="comment" placeholder="Your Comment or Suggestion"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

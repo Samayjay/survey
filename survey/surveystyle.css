@@ -1,0 +1,51 @@
+body{
+    background-color:white;
+    text-align: center;
+    font: verdana;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+form{
+    background-color: grey;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 50px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.allform{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.allform label{
+display: block;
+margin-bottom: 10px;
+}
+.allform input,
+.allform select,
+.allform textarea{
+    border: 3px solid yellowgreen;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.allform input[type="radio"],
+.allform input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+button{
+    text-transform: capitalize;
+    background-color: #05c46b;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+   cursor: pointer;
+}
